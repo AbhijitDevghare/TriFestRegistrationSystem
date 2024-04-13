@@ -1,0 +1,45 @@
+#photo-section
+{
+  width: 400px;
+
+
+}
+
+
+#photo-section img
+{
+    max-width: 390px;
+    object-fit: contain;
+    border-radius: 25px;
+
+}
+
+#photo-section img:hover
+{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+
+}
+
+
+@media (max-width: 600px) {
+
+  #photo-section
+{
+  width: 350px;
+}
+
+#photo-section img
+{
+    max-width: 330px;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+
+
+}
+
+
+
+

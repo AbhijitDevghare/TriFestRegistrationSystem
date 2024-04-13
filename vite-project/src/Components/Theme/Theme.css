@@ -1,0 +1,38 @@
+#theme
+{
+     height: 600px;
+     width: 800px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     text-align: center;
+     background-image: url("../../Images/logo.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 0px 10px;
+     
+}
+
+#theme h1 
+{
+    font-size: 50px;
+}
+
+
+@media (max-width: 600px) {
+    #theme
+    {
+        height: 560px;
+        width: 350px;
+         
+    }
+
+    #theme h2
+    {
+        font-size: 22px;
+    }
+    
+    
+}

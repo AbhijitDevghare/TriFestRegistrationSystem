@@ -1,0 +1,96 @@
+.successfull{
+    text-align: center;
+    margin-top: 250px;
+}
+
+#login{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* height: 560px; */
+    width: 400px;
+    justify-content: center;
+    position: relative;
+    left:530px;
+    margin: 70px 40px;
+}
+
+input
+{
+    height: 40px;
+    width: 350px;
+    margin: 5px 0px;
+    padding: 20px;
+    align-self: center;
+    font-size: 18px;
+    
+}
+
+label{
+    margin-left: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    border-radius: 5px ;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+button:hover{
+    background: rgb(2, 2, 59);
+    color: white;
+}
+
+#login p
+{
+    font-size: 12px;
+    display: inline;
+}
+
+#login p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.labelResp 
+{
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+
+    
+#login{
+    
+    width: 300px;
+    left:10px;
+    margin: 70px 20px;
+}
+
+input
+{
+    height: 40px;
+    width: 250px;
+    
+}
+
+#login p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.labelResp 
+{
+    text-align: center;
+}
+
+
+
+}

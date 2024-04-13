@@ -1,0 +1,137 @@
+#Competition-Box
+{
+    height: 350px;
+    width: 225px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    border-radius: 20px;
+    background-color: #14062b;
+     
+    color: white;   
+    
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+#Competition-Box:hover
+{
+    position: relative;
+    bottom: 10px; 
+    transition-duration: 0.8;  
+    border: 1px solid white;
+
+}
+
+
+#Competition-Box img
+{
+    width: 225px;
+    position: relative;
+    top: -6px;
+    border-radius: 20px 20px 0 0;
+    z-index: -1;
+
+}
+
+#Competition-Box img:hover
+{
+    /* width: 230px; */
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+
+}
+
+
+
+
+
+#Register-Button{
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background: #1a053c; */
+    background: #01befd;
+    color: white;  
+    border: 1px solid white; 
+    position: relative;
+    bottom: 10px;
+}
+
+#Register-Button:hover
+{
+    background-color: #080114;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Mobile resposive */
+
+
+@media (max-width: 600px) {
+        #Competition-Box
+        {
+            height: 270px;
+            width: 150px;
+            background-color: #1a053c;
+
+            
+        }
+
+
+
+        #Competition-Box:hover
+        {
+            bottom: 0; 
+            transition-duration: 0s;  
+            border: 1px solid white; 
+
+        }
+
+
+        #Competition-Box img
+        {
+            height: 150px;  
+            width: 150px;
+            top: -20px;
+            
+        }
+
+        #Competition-Box img:hover
+        {
+            transform: scale(1.1);
+
+        }
+
+
+        #Competition-Box p{
+            font-size: 17px;
+            position: relative;
+            bottom: 15px;
+        }
+
+
+        #Register-Button{
+            position: relative;
+            height: 25px;
+            font-size: 14px;
+            font-weight: 500;
+            bottom: 25px;
+
+        }
+
+
+}
+

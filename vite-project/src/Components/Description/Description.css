@@ -1,0 +1,82 @@
+
+#descriptionId 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    
+}
+
+#descriptionId img
+{
+    max-width: 600px;
+    align-self: center;
+    margin: 20px;
+}
+
+#descriptionId div
+{
+    display: grid;
+    grid-template-columns: 300px 950px;
+    align-self: flex-start;
+}
+
+.deleteButton
+{
+    height: 40px;
+    width: 120px;
+}
+
+.deleteButton:hover
+{
+    background-color: red;
+}
+
+#registerCompButton
+{
+    position: relative;
+    left: 586px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    
+#descriptionId 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+#descriptionId img
+{
+    max-width: 200px;
+    align-self: center;
+    margin: 10px;
+}
+
+#descriptionId div
+{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    align-self: flex-start;
+}
+
+.deleteButton
+{
+    height: 35px;
+    width: 80px;
+    font-size: 12px;
+}
+
+#descriptionId p{
+    font-size: 12px;
+}
+
+
+
+}

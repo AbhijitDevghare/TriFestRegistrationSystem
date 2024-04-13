@@ -1,0 +1,16 @@
+.deleteImg
+{
+    height: 300px;
+    width: 250px;
+    margin-left: 520px;
+}
+
+@media (max-width: 600px)
+{
+    .deleteImg
+    {
+        height: 200px;
+        width: 150px;
+        margin-left: 100px;
+    }
+}

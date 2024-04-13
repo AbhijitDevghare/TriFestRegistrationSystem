@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif;   */
+    font-family: "Outfit", sans-serif;
+
+
+}
+
+
+body
+{         
+            overflow-x: hidden;    
+            background: #14062b;
+}
+
+ h1,h2,h3{
+    overflow-x: hidden;
+    font-size: 30px; 
+    font-weight: bold; 
+    /* color: #01befd;  */
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-align: center; 
+    font-family: "Protest Riot", sans-serif;
+    background: linear-gradient(-70deg,#f2f5f6 0%, #01befd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+} 
+
+
+/* p
+{
+    color: white    ;
+} */
+
+
+
+
+@media (max-width: 600px)
+{
+    h1,h2,h3{
+        font-size: 15px;
+        letter-spacing: 1px; 
+    }
+}
+
